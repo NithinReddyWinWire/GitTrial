@@ -1,11 +1,11 @@
-public class employee
+public class Employee
 {
     public int Id { get; set; }
     public string Name { get; set; }
     public string Position { get; set; }
     public decimal Salary { get; set; }
 
-    public employee(int id, string name, string position, decimal salary)
+    public Employee(int id, string name, string position, decimal salary)
     {
         Id = id;
         Name = name;
