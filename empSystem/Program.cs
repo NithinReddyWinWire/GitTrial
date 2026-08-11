@@ -5,7 +5,7 @@
         var meg = new Meghana();
         meg.MeghanaDisplay();
 
-        var emp =  new Employee(105,"meghana","SDT",50000);
+        var emp =  new Employee(1055,"nithin","SDT",50000);
         emp.DisplayInfo();
     }
 }
