@@ -1,0 +1,20 @@
+public class employee
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Position { get; set; }
+    public decimal Salary { get; set; }
+
+    public employee(int id, string name, string position, decimal salary)
+    {
+        Id = id;
+        Name = name;
+        Position = position;
+        Salary = salary;
+    }
+
+    public void DisplayInfo()
+    {
+        Console.WriteLine($"ID: {Id}, Name: {Name}, Position: {Position}, Salary: {Salary:C}");
+    }
+}
